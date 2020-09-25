@@ -1,3 +1,5 @@
+VIEW DEMO: https://jlampstack.github.io/faker_demo/
+
 # STEPS
 
 - STEP 1: Insert CDN <link> to use faker

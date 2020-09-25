@@ -12,10 +12,6 @@ btnGen.addEventListener('click', () => {
 		address: { city, country, zipcode },
 	} = info;
 
-	console.log(
-		faker.fake('{{name.lastName}}, {{name.firstName}} {{name.suffix}}')
-	);
-
 	// console.log(info);
 
 	document.querySelector('#name').value = name;
@@ -23,4 +19,9 @@ btnGen.addEventListener('click', () => {
 	document.querySelector('#city').value = city;
 	document.querySelector('#zipcode').value = zipcode;
 	document.querySelector('#country').value = country;
+
+	// example from docs
+	console.log(
+		faker.fake('{{name.lastName}}, {{name.firstName}} {{name.suffix}}')
+	);
 });
