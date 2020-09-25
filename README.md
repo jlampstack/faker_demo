@@ -1,4 +1,4 @@
-VIEW DEMO: https://jlampstack.github.io/faker_demo/
+**VIEW DEMO:** https://jlampstack.github.io/faker_demo/
 
 # STEPS
 
